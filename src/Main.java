@@ -5,9 +5,11 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Hello world!");
-        calc ori = new calc();
-        System.out.println(ori.calcIt());
-
+        //calc ori = new calc();
+        //System.out.println(ori.calcIt());
+        //scanner.nextLine();
+        arrayQ a = new arrayQ(scanner);
+        System.out.println(a.secendBest());
     }
 
     public static int calculator(Scanner scanner) {
