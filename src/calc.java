@@ -29,4 +29,12 @@ public class calc {
         }
         else return this.x-this.y;
     }
+
+    public void setOperetor(String operetor) {
+        this.operetor = operetor;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
 }
